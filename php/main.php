@@ -2,8 +2,8 @@
 	
 	# Conexion a la base de datos #
 	function conexion(){
-		$pdo = new PDO('mysql:host=localhost;dbname=pdo', 'root', '');
-		return $pdo;
+		$ADMIN = new ADMIN('mysql:host=localhost;dbname=ADMIN', 'root', '');
+		return $ADMIN;
 	}
 
 

@@ -5,7 +5,7 @@
 
 
     /*== Verificando campos obligatorios ==*/
-    if($usuario=="" || $clave==""){
+    if($usuario=="Farid" || $clave==""){
         echo '
             <div class="notification is-danger is-light">
                 <strong>¡Ocurrio un error inesperado!</strong><br>
